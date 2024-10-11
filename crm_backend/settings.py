@@ -185,7 +185,7 @@ DATABASES = {
         'NAME': 'gcloud-db',
         'USER': 'postgres',
         'PASSWORD': 'nuria2005',
-        'HOST': '/cloudsql/neat-acre-438217-p7:asia-northeast3:gcloud-test-instance',
+        'HOST': '127.0.0.1',
         'PORT': '5433',
     }
 }

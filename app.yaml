@@ -1,0 +1,11 @@
+runtime: python312
+
+entrypoint: gunicorn -b :$PORT crm_backend.wsgi
+
+env_variables:
+  DJANGO_SETTINGS_MODULE: crm_backend.settings
+  SECRET_KEY: 'django-insecure-!%xn_^wzdlm4rczxf20+a5t^la(ze5v1-w7t3_1-4o3pmmy_8r'
+  CLOUD_SQL_CONNECTION_NAME: 'neat-acre-438217-p7:asia-northeast3:gcloud-test-instance'
+
+beta_settings:
+  cloud_sql_instances: neat-acre-438217-p7:asia-northeast3:gcloud-test-instance

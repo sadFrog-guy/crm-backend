@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!%xn_^wzdlm4rczxf20+a5t^la(ze5v1-w7t3_1-4o3pmmy_8r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['neat-acre-438217-p7.appspot.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['neat-acre-438217-p7.appspot.com', 'localhost', '127.0.0.1', '34.64.198.40']
 
 # Подключаем JWT-аутентификацию
 REST_FRAMEWORK = {
